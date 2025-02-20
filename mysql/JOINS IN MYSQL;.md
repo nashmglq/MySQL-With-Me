@@ -97,3 +97,4 @@ This will return all employees and all departments, ensuring no data is lost.
 
 ✅ **Tip:** Always choose the right join type based on what data you need to include! 🚀
 
+
