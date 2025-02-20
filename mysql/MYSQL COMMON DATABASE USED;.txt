@@ -1,0 +1,28 @@
+MYSQL COMMON DATABASE USED;
+
+Numeric Types:
+
+INT: INT(11) (e.g., 12345)
+FLOAT: FLOAT(7,4) (e.g., 3.1415)
+DOUBLE: DOUBLE(16,8) (e.g., 123.45678901)
+DECIMAL: DECIMAL(10,2) (e.g., 150.75)
+TINYINT: TINYINT(1) (e.g., 0 or 1)
+SMALLINT: SMALLINT(5) (e.g., 3000)
+String Types:
+
+VARCHAR: VARCHAR(255) (e.g., 'John Doe')
+CHAR: CHAR(10) (e.g., 'A123456789')
+TEXT: TEXT (e.g., 'This is a long text field.')
+BLOB: BLOB (binary data, e.g., for images)
+Date/Time Types:
+
+DATE: DATE (e.g., '2025-02-06')
+DATETIME: DATETIME (e.g., '2025-02-06 12:30:00')
+TIMESTAMP: TIMESTAMP (e.g., '2025-02-06 12:30:00')
+TIME: TIME (e.g., '12:30:00')
+YEAR: YEAR (e.g., '2025')
+Other Types:
+
+ENUM: ENUM('small', 'medium', 'large') (e.g., 'medium')
+SET: SET('A', 'B', 'C') (e.g., 'A,B')
+BOOLEAN: BOOLEAN (e.g., TRUE or FALSE)

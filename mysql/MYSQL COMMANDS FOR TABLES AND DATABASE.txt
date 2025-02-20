@@ -1,0 +1,51 @@
+MYSQL NOTES;
+
+
+How to create a database?
+
+CREATE DATABASE name
+
+
+How to create a table for that database?
+
+CREATE TABLE name(
+name int not null, 
+name varchar(255) not null, 
+name PRIMARY KEY AUTO_INCREMENT, 
+
+FOREIGN KEY (name_current_table_col) REFERENCES table_refer(name_from_that_table_col)
+); 
+
+// 1st row =  for integers
+// 2nd row = for char
+// 3rd row =for primary key and auto_increment
+
+
+How to alter table data type?
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
+
+
+How to add new column in a database?
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+
+How to drop a table?
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+
+How to alter name of column?
+
+ALTER TABLE table_name
+RENAME COLUMN old_name to new_name;
+
+
+How to drop col?
+
+ALTER TABLE Customers
+DROP COLUMN ContactName;
