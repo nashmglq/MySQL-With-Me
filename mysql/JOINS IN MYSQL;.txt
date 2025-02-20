@@ -1,6 +1,0 @@
-JOINS IN MYSQL;
-
-INNER JOINS
-
-SELECT table1.columnt, table2.column FROM table1 INNER JOIN table2
-ON table1.col = table2.col;
