@@ -91,3 +91,18 @@ SELECT name FROM employees WHERE department_id IN (SELECT department_id FROM dep
 
 This covers all key aspects of MySQL subqueries. Let me know if you need further details or examples! 🚀
 
+
+
+## 🔹 EXAMPLE 
+```sql
+SELECT e.employee_id, e.name, e.department, e.salary
+FROM employee e
+WHERE e.salary > (
+    SELECT AVG(salary)
+    FROM employee
+    -- TO GET each department
+    -- parang kung saan ung department naten ay = sa department from main query
+    WHERE department = e.department
+);
+```
+
