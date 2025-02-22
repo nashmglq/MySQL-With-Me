@@ -107,9 +107,18 @@ COUNT(), SUM(), AVG(), MAX(), MIN()
 ```
 
 ## GROUP BY Clause
-Groups rows with the same values.
+You can also think of it as "SELECT col FROM table GROUP BY what_col_to_group_or_combine_to_avg"
 ```sql
 SELECT column_name, AVG(column_name) FROM table_name GROUP BY column_name;
+```
+
+```sql
+select department, avg(salary) from employee group by department; 
+
+IT IS LIKE SAYING :
+
+Get department, and avg(salary) AND GROUP THEM TO GET AVG
+
 ```
 
 **Rule:** Cannot use two columns in GROUP BY without aggregation unless both are in GROUP BY.
